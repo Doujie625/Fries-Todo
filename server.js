@@ -7,7 +7,7 @@ const todoController = require('./controllers/todoController')
 const timeController = require('./controllers/timeController')
 
 // Define PORT
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000
 
 // Create express app
 const app = express()
